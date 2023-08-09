@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+}
+
+
+.navBrand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  !important
+}
+
+.navLi {
+    color: white !important;
+}
+
+.navLi:hover {
+    color: #FEC937 !important;
+}
+
+.myNavbar {
+    padding: 0px 50px !important;
+}
+
+@media only screen and (max-width: 766px) {
+    .myNavbar {
+        padding: 0px 0px !important;
+    }
+}

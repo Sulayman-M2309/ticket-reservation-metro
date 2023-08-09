@@ -1,0 +1,26 @@
+.HomeTotal {
+    /* height: calc(100vh - 84px - 72px); */
+    height: calc(100vh - 56px - 72px);
+    background-image: url("https://img.freepik.com/premium-vector/metrorail-dhaka-bangladesh-vector-illustration_551555-245.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.HomeTotal::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    /* height: calc(100vh - 84px - 72px); */
+    height: calc(100vh - 56px - 72px);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.typeWriter {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
